@@ -13,9 +13,8 @@ Console.Write("Введите значения в переменную b: ");
 int numB = int.Parse(Console.ReadLine());
 Console.Write("Введите значения в переменную c: ");
 int numC = int.Parse(Console.ReadLine());
-int max = 0;
+int max = numA;
 
-if(numA > max) max = numA;
 if(numB > max) max = numB;
 if(numC > max) max = numC;
 
